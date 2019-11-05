@@ -1,9 +1,9 @@
 module.exports = {
   host: '127.0.0.1',
-  username: 'docker',
-  password: 'docker',
+  username: 'root',
+  password: '1234',
   database: 'nodeauth',
-  dialect: 'postgres',
+  dialect: 'mysql',
   operatorsAliases: false,
   logging: false,
   define: {
