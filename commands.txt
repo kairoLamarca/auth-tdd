@@ -3,3 +3,6 @@ yarn sequelize migration:create --name=create-users
 
 //Executa a migration
 yarn sequelize db:migrate
+
+//Configuração do Jest
+yarn jest --init
