@@ -1,0 +1,5 @@
+//Cria arquivo de migration
+yarn sequelize migration:create --name=create-users
+
+//Executa a migration
+yarn sequelize db:migrate
